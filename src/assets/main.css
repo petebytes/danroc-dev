@@ -1,0 +1,36 @@
+@tailwind base;
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Code|Fira+Sans+Condensed:400,700,900|Fira+Sans:400,700,900|PT+Mono|PT+Sans+Narrow:400,700|PT+Sans:400,700&display=swap');
+:root {
+  --mainColor: #ecc94b;
+  --darkGray: #cbd5e0;
+}
+
+body,
+html {
+  @apply w-full p-2 font-sans  h-full bg-white text-gray-800;
+}
+body, html {
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23e3e3e3' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+h4 {
+  @apply text-lg;
+}
+
+
+
+@tailwind components;
+
+@tailwind utilities;
