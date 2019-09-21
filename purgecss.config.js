@@ -26,8 +26,9 @@ module.exports = {
   ],
   whitelistPatterns: [
     /^fa-/,
-    /-fa/
+    /-fa/,
   ],
+  whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
   extractors: [
     {
       extractor: TailwindExtractor,
