@@ -1,5 +1,5 @@
 ---
-title: How to deploy backend apps to Dokku on Digital Ocean
+title: How to deploy backend apps with Dokku on Digital Ocean
 date: 2019-09-20
 slug: deploying-node-apps-dokku
 published: true
