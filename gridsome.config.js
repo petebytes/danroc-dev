@@ -17,7 +17,7 @@ module.exports = {
     'My dev side. Check out the architect side.',
 
   templates: {
-    Post: '/:title',
+    Post: '/:slug',
     Tag: '/tag/:id',
   },
 

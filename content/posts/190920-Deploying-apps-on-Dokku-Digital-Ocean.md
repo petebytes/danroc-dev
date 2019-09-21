@@ -1,15 +1,15 @@
 ---
-title: Deploying apps on Dokku Digital Ocean
+title: How to deploy backend apps to Dokku on Digital Ocean
 date: 2019-09-20
 slug: deploying-node-apps-dokku
 published: true
 tags: ['deployment', 'dokku']
 series: false
 canonical_url: true
-description: Recently moved all my apps from Heroku to a DigitalOcean droplet using Dokku. This centralized things and I saved me a bunch of money. Here is a recipe I follow for each new app to get it up-and-running.
+description: I recently moved all my apps from Heroku to a DigitalOcean droplet using Dokku. This centralized things and I saved me a bunch of money. Here is a recipe I follow for each new app to get it up-and-running.
 ---
 
-Recently moved all my apps from Heroku to a DigitalOcean droplet using Dokku. This centralized things and I saved me a bunch of money. For each new app, I follow a simple recipe, described below. 
+I recently moved all my apps from Heroku to a DigitalOcean droplet using Dokku. This centralized things and I saved me a bunch of money. Here is a recipe I follow for each new app to get it up-and-running.
 
 For clarification, I am an amateur. I build apps for fun, and I am learning as I go. My advice might be flawed, but it works for me, and it might help you as well :)
 
