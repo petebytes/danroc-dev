@@ -26,7 +26,9 @@ module.exports = {
   ],
   whitelistPatterns: [
     /^fa-/,
-    /-fa/
+    /-fa/,
+    /^language-/,
+    /token/
   ],
   extractors: [
     {
