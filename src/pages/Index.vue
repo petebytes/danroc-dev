@@ -14,7 +14,7 @@
         diverse and complex team configurations.
         </p>
         <p>
-          I am currently building <a href="//awarded.to" target="_blank" class="link font-semibold">Awarded</a>,
+          Things I am currently building include: <a href="//awarded.to" target="_blank" class="link font-semibold">Awarded</a>,
           <a href="//thearchitecturelist.com" target="_blank" class="link font-semibold">The Architecture List</a>,
           <a href="//theforeignarchitect" target="_blank" class="link font-semibold">The Foreign Architect</a>,
           and <strong>Berlin Architectural Network</strong> (WIP).
