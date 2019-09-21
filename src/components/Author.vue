@@ -5,9 +5,9 @@
 			{{ $static.metadata.siteName }}
 		</h1>
 		<ul class="flex mb-4">
-			<li class="mr-2 "><a href="//twitter.com/danrocc"  target="_blank" rel="nofollow"><font-awesome :icon="['fab', 'twitter']" class="hover:text-yellow-400"></font-awesome></a></li>
-			<li class="mr-2 "><a href="//github.com/danrocha" target="_blank" rel="nofollow"><font-awesome :icon="['fab', 'github']" class="hover:text-blue-400"></font-awesome></a></li>
-			<li class="mr-2 "><a href="//linkedin.com/in/danrocha" target="_blank" rel="nofollow"><font-awesome :icon="['fab', 'linkedin']" class="hover:text-green-400"></font-awesome></a></li>
+			<li class="mr-2 font-base"><a href="//twitter.com/danrocc"  target="_blank" rel="nofollow"><font-awesome :icon="['fab', 'twitter']" class="hover:text-yellow-400"></font-awesome></a></li>
+			<li class="mr-2 font-base"><a href="//github.com/danrocha" target="_blank" rel="nofollow"><font-awesome :icon="['fab', 'github']" class="hover:text-blue-400"></font-awesome></a></li>
+			<li class="mr-2 font-base"><a href="//linkedin.com/in/danrocha" target="_blank" rel="nofollow"><font-awesome :icon="['fab', 'linkedin']" class="hover:text-green-400"></font-awesome></a></li>
 		</ul>
 	</div>
 </template>
