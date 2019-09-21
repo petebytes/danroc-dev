@@ -1,6 +1,6 @@
 @tailwind base;
 
-@import url('https://fonts.googleapis.com/css?family=Fira+Code|Fira+Sans+Condensed:400,700,900|Fira+Sans:400,700,900|PT+Mono|PT+Sans+Narrow:400,700|PT+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans:400,700&display=swap');
 :root {
   --mainColor: #ecc94b;
   --darkGray: #cbd5e0;
@@ -29,7 +29,53 @@ h4 {
   @apply text-lg;
 }
 
+.content a, a.link {
+    @apply no-underline;
+    @apply text-black;
+    box-shadow: inset 0 -0.1em 0 #dae1e7;
+    transition: box-shadow 0.2s ease-in-out;
+  }
 
+.content a:hover, a.link:hover {
+    box-shadow: inset 0 -1.2em 0 #dae1e7;
+  }
+
+@screen sm {
+  .post-content p, .post-content h3, .post-content ul, .post-content ol  {
+    @apply ml-8;
+  }
+}
+@screen md {
+  .post-content p, .post-content h3, .post-content ul, .post-content ol  {
+    @apply ml-12;
+  }
+  .content pre {
+    @apply -mr-48 !important;
+  }
+}
+
+.content p, .content ul, .content ol {
+  @apply mb-4;
+}
+.content ul > li::before {
+  content: "×";
+  @apply font-bold text-pink-500 mr-2;
+}
+.content ol {
+  @apply list-decimal;
+}
+.content h2 {
+  @apply mt-8 mb-2;
+}
+.content h2::before {
+    display: block;
+    content: "";
+    @apply w-24 mb-2 border-t-2 border-blue-400;
+}
+
+pre[class*="language-"] {
+  @apply font-mono text-sm bg-gray-100 my-8 w-auto overflow-x-scroll p-4 rounded border border-gray-200 !important;
+}
 
 @tailwind components;
 

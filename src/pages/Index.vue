@@ -8,18 +8,26 @@
       <section class="content mb-8 sm:ml-12 sm:mb-12 md:w-1/2 lg:m-0 lg:w-full">
         <p>
         I'm <strong>Daniel da Rocha</strong>, a Brazilian architect and web developer.
-        </p><p>
+        </p>
+        <p>
         I apply skills learned in architecture to my development efforts: the ability to deal with complex problems, to devise simple and elegant solutions, and to deal with
         diverse and complex team configurations.
         </p>
         <p>
-          I am currently building <strong>Awarded</strong>, The Architecture List, The Foreign Architect, and Berlin Architectural Network.
+          I am currently building <a href="//awarded.to" target="_blank" class="link font-semibold">Awarded</a>,
+          <a href="//thearchitecturelist.com" target="_blank" class="link font-semibold">The Architecture List</a>,
+          <a href="//theforeignarchitect" target="_blank" class="link font-semibold">The Foreign Architect</a>,
+          and <strong>Berlin Architectural Network</strong> (WIP).
         </p>
-        <dl>
-          <dt class="text-gray-500 uppercase text-xs trackign wide">Homebase</dt>
-          <dd>🇩🇪Berlin</dd>
-          <dt class="text-gray-500 uppercase text-xs trackign wide">Currently in</dt>
-          <dd>🇧🇷S&atilde;o Paulo</dd>
+        <dl class="flex mt-8">
+          <div class="mr-8">
+            <dt class="text-gray-500 uppercase text-xs trackign wide">Homebase</dt>
+            <dd>🇩🇪Berlin</dd>
+          </div>
+          <div>
+            <dt class="text-gray-500 uppercase text-xs trackign wide">Currently in</dt>
+            <dd>🇧🇷S&atilde;o Paulo</dd>
+          </div>
         </dl>
       </section>
       <section></section>

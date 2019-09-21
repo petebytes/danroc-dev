@@ -4,7 +4,7 @@
       <g-image alt="Cover image" v-if="post.coverImage" :src="post.coverImage" />
     </div>
     <div>
-      <g-link :to="post.path"><h3 class="font-semibold mb-1" v-html="post.title" /></g-link>
+      <h3 class="font-semibold mb-1"><g-link :to="post.path" class="link" tag="a">{{post.title}}</g-link></h3>
       <p class="mb-2" v-html="post.description" />
 
       <post-meta :post="post" />

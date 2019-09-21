@@ -5,7 +5,7 @@
         <h1 class="font-semibold leading-tight mb-8">
           {{ $page.post.title }}
         </h1>
-
+        <author class="post-author" />
         <post-meta :post="$page.post" class="mb-4"/>
 
       </header>
@@ -24,9 +24,10 @@
 
       <section class="post-comments">
         <!-- Add comment widgets here -->
+        <vue-disqus shortname="danroc-dev" :identifier="$page.post.title"></vue-disqus>
       </section>
 
-      <author class="post-author" />
+
     </article>
   </Layout>
 </template>
@@ -70,49 +71,11 @@ query Post ($id: ID!) {
     }
     description
     content
-    cover_image (width: 860, blur: 10)
   }
 }
 </page-query>
 
 <style>
-@screen sm {
-  .post-content p, .post-content h3, .post-content ul, .post-content ol  {
-    @apply ml-8;
-  }
-}
-@screen md {
-  .post-content p, .post-content h3, .post-content ul, .post-content ol  {
-    @apply ml-12;
-  }
-  .content pre {
-    @apply -mr-48;
-  }
-}
 
-.content p, .content ul, .content ol {
-  @apply mb-4;
-}
-.content ul > li::before {
-  content: "×";
-  @apply font-bold text-pink-500 mr-2;
-}
-.content ol {
-  @apply list-decimal;
-}
-.content h2 {
-  @apply mt-8 mb-2;
-}
-.content h2::before {
-    display: block;
-    content: "";
-    @apply w-24 mb-2 border-t-2 border-blue-400;
-}
-.content-code {
-  @apply inline-block font-mono text-sm bg-gray-100 text-black rounded border border-gray-200;
-}
-.content pre {
-  @apply font-mono text-sm bg-gray-100  my-8 w-auto overflow-x-scroll p-4 rounded border border-gray-200;
-}
 
 </style>
