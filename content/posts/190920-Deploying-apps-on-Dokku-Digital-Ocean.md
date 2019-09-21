@@ -65,8 +65,8 @@ All in one little Digital Ocean droplet costing me 5USD/month.
 
 Every time I start a new app, I follow a series of steps which make the whole process very simple. This recipe assumes:
 
-- You already have a DO droplet with Dokku installed. If not, follow this tutorial
-- You already ensured the safety of your droplet, removing root login and creating a new user who can login via SSH. If not, follow this tutorial
+- You already have a DO droplet with Dokku installed. If not, [follow this tutorial](https://github.com/dokku/dokku/blob/master/docs/getting-started/install/digitalocean.md)
+- You already ensured the safety of your droplet, removing root login and creating a new user who can login via SSH. If not, [follow this tutorial](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04)
 - You logged into your droplet via SSH
 
 ### Create the app
