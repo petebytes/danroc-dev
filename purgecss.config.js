@@ -21,6 +21,12 @@ module.exports = {
     'g-image',
     'g-image--lazy',
     'g-image--loaded',
+
+
+  ],
+  whitelistPatterns: [
+    /^fa-/,
+    /-fa/
   ],
   extractors: [
     {
