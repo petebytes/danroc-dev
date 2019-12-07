@@ -5,7 +5,7 @@
       <author :show-title="true" />
     </section>
     <div class="home">
-      <section class="content mb-8 sm:ml-12 sm:mb-12 md:w-1/2 lg:m-0 lg:w-full">
+      <section class="mb-8 content sm:ml-12 sm:mb-12 md:w-1/2 lg:m-0 lg:w-full">
         <p>
         I'm <strong>Daniel da Rocha</strong>, a Brazilian architect and web developer.
         </p>
@@ -14,19 +14,19 @@
         diverse and complex team configurations.
         </p>
         <p>
-          Things I am currently building include: <a href="//awarded.to" target="_blank" class="link font-semibold">Awarded</a>,
-          <a href="//thearchitecturelist.com" target="_blank" class="link font-semibold">The Architecture List</a>,
-          <a href="//theforeignarchitect" target="_blank" class="link font-semibold">The Foreign Architect</a>,
+          Things I am currently building include: <a href="//awarded.to" target="_blank" class="font-semibold link">Awarded</a>,
+          <a href="//thearchitecturelist.com" target="_blank" class="font-semibold link">The Architecture List</a>,
+          <a href="//theforeignarchitect" target="_blank" class="font-semibold link">The Foreign Architect</a>,
           and <strong>Berlin Architectural Network</strong> (WIP).
         </p>
         <dl class="flex mt-8">
           <div class="mr-8">
-            <dt class="text-gray-500 uppercase text-xs trackign wide">Homebase</dt>
+            <dt class="text-xs text-gray-500 uppercase trackign wide">Homebase</dt>
             <dd>🇩🇪Berlin</dd>
           </div>
           <div>
-            <dt class="text-gray-500 uppercase text-xs trackign wide">Currently in</dt>
-            <dd>🇧🇷S&atilde;o Paulo</dd>
+            <dt class="text-xs text-gray-500 uppercase trackign wide">Currently in</dt>
+            <dd>🇮🇩Bali</dd>
           </div>
         </dl>
       </section>
@@ -34,7 +34,7 @@
       <section></section>
       <!-- List posts -->
       <section class="posts">
-        <h2 class="uppercase text-base tracking-wide text-gray-500 mb-4">Latest articles</h2>
+        <h2 class="mb-4 text-base tracking-wide text-gray-500 uppercase">Latest articles</h2>
         <div class="post-grid sm:ml-12 md:w-1/2 lg:w-full lg:ml-0 xl:w-2/3">
           <post-card v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" />
         </div>
