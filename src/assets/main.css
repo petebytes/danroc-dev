@@ -8,7 +8,7 @@
 
 body,
 html {
-  @apply w-full p-2 font-sans  h-full bg-white text-gray-800;
+  @apply w-full h-full p-2 font-sans text-gray-800 bg-white;
 }
 body, html {
   background-color: #ffffff;
@@ -57,14 +57,23 @@ h4 {
 .content p, .content ul, .content ol {
   @apply mb-4;
 }
+.content ul {
+  @apply pl-8;
+}
+.content ul > li {
+  @apply mb-2;
+}
 .content ul > li::before {
   content: "×";
-  @apply font-bold text-pink-500 mr-2;
+  @apply mr-2 font-bold text-pink-500;
 }
 .content ol {
   @apply list-decimal;
 }
 .content h2 {
+  @apply mt-10 mb-6 ;
+}
+.content h3 {
   @apply mt-8 mb-2;
 }
 .content h2::before {
