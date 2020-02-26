@@ -21,13 +21,13 @@
         </p>
         <dl class="flex mt-8">
           <div class="mr-8">
-            <dt class="text-xs text-gray-500 uppercase trackign wide">Homebase</dt>
+            <dt class="text-xs text-gray-500 uppercase trackign wide">Homebase & Currently in</dt>
             <dd>🇩🇪Berlin</dd>
           </div>
-          <div>
+          <!-- <div>
             <dt class="text-xs text-gray-500 uppercase trackign wide">Currently in</dt>
-            <dd>🇮🇩Bali</dd>
-          </div>
+            <dd>also 🇩🇪 Berlin</dd>
+          </div> -->
         </dl>
       </section>
       <section></section>
